@@ -5,7 +5,7 @@ import "./Login.css";
 const Login = () => {
   const loginwithgoogle = () => {
     window.open(
-      "https://frontauth-zkve.onrender.com/auth/google/callback",
+      "https://biswabackend.onrender.com/auth/google/callback",
       "_self"
     );
   };
