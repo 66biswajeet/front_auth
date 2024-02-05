@@ -42,7 +42,7 @@ const Header = () => {
   const getUser = async () => {
     try {
       const response = await axios.get(
-        "https://google-auth-project.onrender.com/sucess",
+        "https://frontauth-zkve.onrender.com/sucess",
         {
           withCredentials: true,
         }
@@ -56,7 +56,7 @@ const Header = () => {
 
   // logoout;
   const logout = () => {
-    window.open("https://google-auth-project.onrender.com/logout", "_self");
+    window.open("https://frontauth-zkve.onrender.com/logout", "_self");
   };
 
   useEffect(() => {
