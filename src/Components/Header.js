@@ -42,7 +42,7 @@ const Header = () => {
   const getUser = async () => {
     try {
       const response = await axios.get(
-        "https://frontauth-zkve.onrender.com/sucess",
+        "https://biswabackend.onrender.com/sucess",
         {
           withCredentials: true,
         }
@@ -56,7 +56,7 @@ const Header = () => {
 
   // logoout;
   const logout = () => {
-    window.open("https://frontauth-zkve.onrender.com/logout", "_self");
+    window.open("https://biswabackend.onrender.com/logout", "_self");
   };
 
   useEffect(() => {
