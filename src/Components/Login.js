@@ -5,7 +5,7 @@ import "./Login.css";
 const Login = () => {
   const loginwithgoogle = () => {
     window.open(
-      "https://google-auth-project.onrender.com/auth/google/callback",
+      "https://frontauth-zkve.onrender.com/auth/google/callback",
       "_self"
     );
   };
